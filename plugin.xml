@@ -34,5 +34,13 @@
             file="contexts.xml">
       </contexts>
    </extension>
+   <extension
+         point="org.eclipse.ui.commands">
+      <category
+            description="Favorites相关命令"
+            id="com.qualityeclipse.favorites.commands.category"
+            name="Favorites">
+      </category>
+   </extension>
 
 </plugin>
