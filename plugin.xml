@@ -59,5 +59,22 @@
             commandId="com.qualityeclipse.favorites.commands.openView">
       </handler>
    </extension>
+   <extension
+         point="org.eclipse.ui.menus">
+      <menuContribution
+            allPopups="false"
+            locationURI="menu:org.eclipse.ui.main.menu?after=additions">
+         <menu
+               id="com.qualityeclipse.favorites.menus.favoritesMenu"
+               label="收藏夹">
+            <command
+                  commandId="com.qualityeclipse.favorites.commands.openView"
+                  icon="icons/sample.gif"
+                  style="push"
+                  tooltip="打开透视图">
+            </command>
+         </menu>
+      </menuContribution>
+   </extension>
 
 </plugin>
