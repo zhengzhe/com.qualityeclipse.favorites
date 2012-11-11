@@ -52,5 +52,12 @@
             name="添加收藏">
       </command>
    </extension>
+   <extension
+         point="org.eclipse.ui.handlers">
+      <handler
+            class="com.qualityeclipse.favorites.handlers.OpenFavoritesViewHandler"
+            commandId="com.qualityeclipse.favorites.commands.openView">
+      </handler>
+   </extension>
 
 </plugin>
