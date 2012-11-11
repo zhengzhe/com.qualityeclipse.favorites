@@ -66,14 +66,35 @@
             locationURI="menu:org.eclipse.ui.main.menu?after=additions">
          <menu
                id="com.qualityeclipse.favorites.menus.favoritesMenu"
-               label="收藏夹">
+               label="收藏夹"
+               mnemonic="v">
             <command
                   commandId="com.qualityeclipse.favorites.commands.openView"
                   icon="icons/sample.gif"
+                  id="com.qualityeclipse.favorites.menus.openFavoriteView"
+                  mnemonic="O"
                   style="push"
                   tooltip="打开透视图">
             </command>
          </menu>
+         <toolbar
+               id="com.qualityeclipse.favorites.toolbar1">
+         </toolbar>
+      </menuContribution>
+      <menuContribution
+            allPopups="false"
+            locationURI="toolbar:org.eclipse.ui.main.toolbar?after=additions">
+         <toolbar
+               id="com.qualityeclipse.favorites.toolbars.main">
+            <command
+                  commandId="com.qualityeclipse.favorites.commands.openView"
+                  icon="icons/sample.gif"
+                  id="com.qualityeclipse.favorites.toolbars.openFavoritesView"
+                  mnemonic="O"
+                  style="push"
+                  tooltip="Open The Favorites View">
+            </command>
+         </toolbar>
       </menuContribution>
    </extension>
 
