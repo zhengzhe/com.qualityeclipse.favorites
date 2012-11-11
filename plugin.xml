@@ -96,6 +96,17 @@
             </command>
          </toolbar>
       </menuContribution>
+      <menuContribution
+            allPopups="false"
+            locationURI="popup:org.eclipse.ui.popup.any?after=additions">
+         <menu
+               label="收藏夹">
+            <command
+                  commandId="com.qualityeclipse.favorites.commands.add"
+                  style="push">
+            </command>
+         </menu>
+      </menuContribution>
    </extension>
 
 </plugin>
