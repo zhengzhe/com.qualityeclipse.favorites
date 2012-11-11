@@ -41,6 +41,16 @@
             id="com.qualityeclipse.favorites.commands.category"
             name="Favorites">
       </category>
+      <command
+            categoryId="com.qualityeclipse.favorites.commands.category"
+            id="com.qualityeclipse.favorites.commands.openView"
+            name="打开收藏夹视图">
+      </command>
+      <command
+            categoryId="com.qualityeclipse.favorites.commands.category"
+            id="com.qualityeclipse.favorites.commands.add"
+            name="添加收藏">
+      </command>
    </extension>
 
 </plugin>
